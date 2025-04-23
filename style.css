@@ -20,7 +20,7 @@ body {
 h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    width: bold;
+    font-weight: bold;
     color: #000000;
     
 
@@ -48,7 +48,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#categoria {
+#categoria { /* minúscula para corresponder ao HTML */
     margin-top: 0.5rem;
     background-color: #000000;
     color: #FFFDF2;
@@ -59,7 +59,7 @@ main {
     cursor: pointer;
 }
 
-#valor {
+#valor { /* minúscula para corresponder ao HTML */
     font-size: 1rem;
     margin-top: 1rem;
     border: black 2px solid;
